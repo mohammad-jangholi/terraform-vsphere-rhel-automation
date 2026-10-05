@@ -1,0 +1,13 @@
+# Terraform variables and secrets
+terraform.tfvars
+*.auto.tfvars
+
+# Terraform state
+terraform.tfstate
+terraform.tfstate.*
+
+# Terraform working directory
+.terraform/
+
+# Local provider mirror
+terraform-provider-mirror/
